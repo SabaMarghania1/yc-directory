@@ -9,6 +9,7 @@ import markdownit from "markdown-it";
 import { Suspense } from "react";
 import { Skeleton } from "@/components/ui/skeleton";
 import View from "@/components/View";
+import { Metadata } from "next";
 
 const md = markdownit();
 export const experimental_ppr = true;
